@@ -1,0 +1,25 @@
+.root {
+    -fx-font-family: "微软雅黑";
+    -fx-font-size: 16px;
+    -fx-background-image: url(bgbgbg.jpg);
+    -fx-background-size: stretch stretch;
+    -fx-background-position: center center;
+}
+.button {
+    -fx-background-color: #fa4b2a;
+    -fx-text-fill: white;
+
+}
+.button:hover{
+    -fx-background-color: black;
+
+}
+.progress-indicator{
+    -fx-progress-color:  #fa4b2a;
+}
+.text-field{
+    -fx-border-color: #ff816b;
+}
+.text-field:focused{
+    -fx-border-color: red;
+}

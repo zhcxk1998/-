@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="661.0" prefWidth="877.0" stylesheets="@boss.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mycontroler">
+    <!--<TextField fx:id="content" layoutX="35.0" layoutY="524.0" onKeyPressed="#fasong" prefHeight="122.0"-->
+    <!--prefWidth="800.0"/>-->
+    <TextArea fx:id="content" layoutX="35.0" layoutY="524.0" onKeyPressed="#fasong" prefHeight="122.0" prefWidth="800.0">
+        <effect>
+            <InnerShadow color="#fa4b2a" />
+        </effect>
+    </TextArea>
+    <Line endX="693.800048828125" fill="#00000057" layoutX="127.0" layoutY="524.0" startX="-77.39998626708984" stroke="#ffffff76" strokeWidth="3.0" />
+    <Button fx:id="btn1" layoutX="746.0" layoutY="593.0" mnemonicParsing="false" onAction="#send" prefHeight="35.0" prefWidth="74.0" text="发送">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Button>
+    <ListView fx:id="list" layoutX="35.0" layoutY="73.0" prefHeight="453.0" prefWidth="800.0">
+        <effect>
+            <InnerShadow color="#fa4b2a" />
+        </effect>
+    </ListView>
+    <Button fx:id="kaishi" layoutX="185.0" layoutY="39.0" mnemonicParsing="false" onAction="#start" prefHeight="34.0" prefWidth="86.0" text="点击进入">
+      <font>
+         <Font size="15.0" />
+      </font></Button>
+    <TextField fx:id="addtheme" layoutX="560.0" layoutY="38.0" prefHeight="34.0" prefWidth="186.0" promptText="请输入要添加的主题" />
+    <Label fx:id="label" layoutX="271.0" layoutY="40.0" prefHeight="34.0" prefWidth="202.0" style="-fx-font-weight: bold" text="BB聊天室" textAlignment="CENTER">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+    <ImageView fx:id="image" fitHeight="414.0" fitWidth="552.0" layoutX="163.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@alg.png" />
+        </image>
+    </ImageView>
+    <Button fx:id="search" layoutX="472.0" layoutY="38.0" mnemonicParsing="false" onAction="#fromtheme" prefHeight="34.0" prefWidth="86.0" text="查找记录">
+      <font>
+         <Font size="15.0" />
+      </font></Button>
+    <ComboBox fx:id="emmm" layoutX="35.0" layoutY="40.0" prefHeight="3.0" prefWidth="150.0" promptText="请选择主题" stylesheets="@boss.css" visibleRowCount="6" />
+   <Button layoutX="746.0" layoutY="38.0" mnemonicParsing="false" onAction="#tianjiatheme" prefHeight="34.0" prefWidth="86.0" text="添加主题">
+      <font>
+         <Font size="15.0" />
+      </font>
+   </Button>
+
+</AnchorPane>

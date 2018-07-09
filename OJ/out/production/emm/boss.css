@@ -1,0 +1,94 @@
+.root {
+    -fx-font-family: "微软雅黑";
+    -fx-font-size: 16px;
+    -fx-background-image: url(aaa.gif);
+    -fx-background-size: stretch stretch;
+    -fx-background-position: center center;
+    /*-fx-border-radius: 20;*/
+    /*-fx-background-radius: 20;*/
+    -fx-text-fill: white;
+}
+
+.text-field {
+    -fx-background-color: #ebebeb;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-opacity: 0.5;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+
+#addtheme {
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+.button {
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+.button {
+    -fx-background-color: #fa4b2a;
+    -fx-text-fill: white;
+    /*-fx-opacity: 0.9;*/
+}
+
+.button:hover {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+}
+
+.list-view {
+
+    /*-fx-background-color: transparent;*/
+    /*-fx-background-image: url(content.jpg);*/
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-opacity: 0.5;
+    /*-fx-border-radius: 50%;*/
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+
+/*.choice-box {*/
+    /*-fx-background-color: black;*/
+    /*!*-fx-opacity: 0.7;*!*/
+    /*-fx-text-fill: white;*/
+    /*-fx-font-weight: bold;*/
+    /*-fx-border-radius: 20;*/
+    /*-fx-background-radius: 20;*/
+/*}*/
+
+.label {
+    -fx-text-fill: #490008;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-font-weight: bold
+}
+
+#emmm {
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-background-color: #c5c5c5;
+    -fx-opacity: 0.8;
+
+}
+#emmm:showing{
+    -fx-background-color: white;
+
+}
+#emmm:armed{
+    -fx-border-color: white;
+}
+
+.text-area{
+    -fx-background-color: #ebebeb;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-opacity: 0.5;
+    -fx-border-radius: 200;
+    -fx-background-radius: 10;
+    -fx-border-color: white;
+}

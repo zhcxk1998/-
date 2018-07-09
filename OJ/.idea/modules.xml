@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arraylist/Arraylist.iml" filepath="$PROJECT_DIR$/Arraylist/Arraylist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVAFX/JAVAFX.iml" filepath="$PROJECT_DIR$/JAVAFX/JAVAFX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OJ.iml" filepath="$PROJECT_DIR$/OJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java题库/java题库.iml" filepath="$PROJECT_DIR$/java题库/java题库.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab01/lab01.iml" filepath="$PROJECT_DIR$/lab01/lab01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab02/lab02.iml" filepath="$PROJECT_DIR$/lab02/lab02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab03/lab03.iml" filepath="$PROJECT_DIR$/lab03/lab03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab04/lab04.iml" filepath="$PROJECT_DIR$/lab04/lab04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab05/lab05.iml" filepath="$PROJECT_DIR$/lab05/lab05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/对象和类/对象和类.iml" filepath="$PROJECT_DIR$/对象和类/对象和类.iml" />
+      <module fileurl="file://$PROJECT_DIR$/对象和类2/对象和类2.iml" filepath="$PROJECT_DIR$/对象和类2/对象和类2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/接口/接口.iml" filepath="$PROJECT_DIR$/接口/接口.iml" />
+      <module fileurl="file://$PROJECT_DIR$/数组/数组.iml" filepath="$PROJECT_DIR$/数组/数组.iml" />
+      <module fileurl="file://$PROJECT_DIR$/方法2/方法2.iml" filepath="$PROJECT_DIR$/方法2/方法2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/方法3/方法3.iml" filepath="$PROJECT_DIR$/方法3/方法3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/期中小练习/期中小练习.iml" filepath="$PROJECT_DIR$/期中小练习/期中小练习.iml" />
+      <module fileurl="file://$PROJECT_DIR$/继承和多态/继承和多态.iml" filepath="$PROJECT_DIR$/继承和多态/继承和多态.iml" />
+      <module fileurl="file://$PROJECT_DIR$/继承和多态2/继承和多态2.iml" filepath="$PROJECT_DIR$/继承和多态2/继承和多态2.iml" />
+    </modules>
+  </component>
+</project>

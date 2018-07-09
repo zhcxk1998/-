@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <script src="https://cdn.bootcss.com/react/15.4.2/react.min.js"></script>
+    <script src="https://cdn.bootcss.com/react/15.4.2/react-dom.min.js"></script>
+    <script src="https://cdn.bootcss.com/babel-standalone/6.22.1/babel.min.js"></script>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <title>React App</title>
+    <script type="text/javascript">
+        var flag = 1;
+
+        function toggle() {
+            if (flag == 1) {
+                document.getElementById('root').style.display = "block";
+                flag = 0;
+            }
+            else{
+                document.getElementById('root').style.display = "none";
+                flag=1;
+            }
+
+
+        }
+    </script>
+
+</head>
+<body>
+<div>
+    <h1>欢迎来到调色面板！</h1>
+</div>
+<div id="app"></div>
+<div style="margin-top: 100px" id="bbb"></div>
+<div id="aaa"></div>
+<div id="count"></div>
+<div></div>
+<div id="root"></div>
+</body>
+</html>

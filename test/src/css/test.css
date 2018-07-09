@@ -1,0 +1,60 @@
+.xuanzhuan1 {
+    animation: spin1 infinite alternate 2s ease-in-out;
+    border-radius: 50%;
+    border: 2px solid transparent ;
+    box-shadow: #858585 3px 3px;
+}
+.xuanzhuan2 {
+    animation: spin2 infinite alternate 2s ease-in-out;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    float: left;
+    box-shadow: #858585 3px 3px;
+}
+
+@keyframes spin1 {
+    from {
+        margin-left: -80px;
+        transform: rotate(0deg) scale(1,1.5);
+        opacity: 0;
+    }
+    to {
+        margin-left: 240px;
+        transform: rotate(360deg) scale(1.5,1);
+        opacity: 1;
+    }
+}
+@keyframes spin2 {
+    from {
+        margin-left: 240px;
+        transform: rotate(360deg) scale(1.5,1);
+        opacity: 1;
+    }
+    to {
+        margin-left: -80px;
+        transform: rotate(0deg) scale(1,1.5);
+        opacity: 0;
+
+    }
+}
+
+.huojian{
+    transform: rotate(90deg);
+}
+
+
+.tiaose{
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+.anniu{
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.anniu:visited{
+    text-decoration: none;
+}
